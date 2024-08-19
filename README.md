@@ -14,5 +14,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Deployed App
 
-I hosted it on Netlify, you can try it here: [https://lld-demo-uber.app](https://lld-demo-uber.netlify.app)
+I hosted it on Netlify, you can try it here: [https://lld-demo-swiggy.app](https://lld-demo-swiggy.netlify.app)
 
