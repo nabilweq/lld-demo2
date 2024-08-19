@@ -45,7 +45,7 @@ const App: React.FC = () => {
     }
 
     const user = new User('1', name, email);
-    const orderedFood = new Food('1', food, 'Chineese');
+    const orderedFood = new Food('1', food, 'Indian');
     const restaurant = foodManager.getRestaurantById(selectedRestaurantId);
     if (!restaurant) return;
 
