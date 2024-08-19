@@ -60,7 +60,7 @@ const App: React.FC = () => {
     const deliveryCharge = deliveryStrategy.calculateCharge(distance);
     const deliveryPartner = deliveryManager.assignPartner(order.id);
 
-    pushNotificationSender.sendNotification(user.id, `Your order from ${restaurant.name} is being processed. Delivery charge: ${deliveryCharge}`);
+    pushNotificationSender.sendNotification(user.name, `Your order from ${restaurant.name} is being processed. Delivery charge: ${deliveryCharge}`);
 
     const logMessages = [
       `User Details: ${JSON.stringify(user.getUserDetails())}`,

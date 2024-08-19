@@ -1,5 +1,5 @@
 export class PushNotificationSender {
-    sendNotification(userId: string, message: string): void {
-        alert(`Sending notification to ${userId}: ${message}`);
+    sendNotification(userName: string, message: string): void {
+        alert(`Sending notification to ${userName}: ${message}`);
     }
 }
