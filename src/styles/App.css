@@ -1,0 +1,108 @@
+/* App.css */
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.order-log-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.order-log-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.order-log-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-log-card-header {
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.order-log-card-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.order-log-card-content {
+  padding: 20px;
+}
+
+.order-log-entry {
+  margin-bottom: 15px;
+}
+
+.order-log-entry-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.order-log-entry-content {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+.order-log-separator {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 15px 0;
+}
