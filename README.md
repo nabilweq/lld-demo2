@@ -1,4 +1,4 @@
-# Uber/Ola LLD Demo
+# Swiggy/Zomato LLD Demo
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
